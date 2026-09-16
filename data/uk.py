@@ -29,12 +29,14 @@ def load_ngrams(n):
 
         for line in file:
 
-            parts = line.strip().split()
-
-            if len(parts) != 2:
+            if not line.strip():
                 continue
 
-            key, count = parts
+            key = line[:n]
+            count = line[n:].strip()
+
+            if len(key) != n:
+                continue
 
             ngrams[key] = int(count)
 
