@@ -1,3 +1,5 @@
+[🇬🇧 English version](README.md) | [🇺🇦 Українська версія](README.uk.md)
+
 # Ukrainian Cryptanalysis
 
 A Python project for automatic cryptanalysis and decryption of Ukrainian texts.
@@ -22,6 +24,7 @@ The program:
 project/
 │
 ├── README.md
+├── README.uk.md
 ├── main.py
 │
 ├── breaking/
