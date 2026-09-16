@@ -21,18 +21,16 @@ The program:
 ```text
 project/
 │
+├── README.md
 ├── main.py
 │
 ├── breaking/
-│   ├── __init__.py
 │   └── substitution.py
 │
 ├── score/
-│   ├── __init__.py
 │   └── ngram.py
 │
 └── data/
-    ├── __init__.py
     ├── uk.py
     └── uk/
         └── quadrams.txt
